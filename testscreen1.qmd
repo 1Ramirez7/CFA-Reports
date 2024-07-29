@@ -1,9 +1,10 @@
 ---
 layout: cv
 title: ""
-format:  # remove this if table for 4 wash options is remove
-  html: # remove this if table for 4 wash options is remove
-    css: styles.css # remove this if table for 4 wash options is remove
+format:  
+  html: 
+    embed-resources: true
+    css: styles.css
 ---
 
 # ROA 
@@ -17,3 +18,20 @@ format:  # remove this if table for 4 wash options is remove
 
 :::
 
+
+
+<web-frame src="https://www.w3schools.com/html/html_iframe.asp" width="600" height="400"></web-frame>
+<script>
+    class WebFrame extends HTMLElement {
+        constructor() {
+            super();
+            const shadow = this.attachShadow({ mode: 'open' });
+            const iframe = document.createElement('iframe');
+            iframe.src = this.getAttribute('src');
+            iframe.width = this.getAttribute('width');
+            iframe.height = this.getAttribute('height');
+            shadow.appendChild(iframe);
+        }
+    }
+    customElements.define('web-frame', WebFrame);
+</script>

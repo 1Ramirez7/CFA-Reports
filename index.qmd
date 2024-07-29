@@ -1,4 +1,8 @@
 ---
 title: "Home Page"
 subtitle: ""
+format:  # remove this if table for 4 wash options is remove
+  html: # remove this if table for 4 wash options is remove
+    embed-resources: true
+    css: styles.css # remove this if table for 4 wash options is remove
 ---
