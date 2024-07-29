@@ -5,3 +5,11 @@ format:  # remove this if table for 4 wash options is remove
   html: # remove this if table for 4 wash options is remove
     css: styles.css # remove this if table for 4 wash options is remove
 ---
+
+
+
+::: {.column-screen}
+
+<iframe src="https://www.w3schools.com/" height="1000" width="100%" title="Iframe Example"></iframe>
+
+:::
