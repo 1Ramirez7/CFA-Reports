@@ -1,0 +1,36 @@
+project: 
+  type: website
+
+website:
+  title: "CFA-Reports"
+  favicon: Images/favicon.png
+  back-to-top-navigation: true
+
+  page-footer: 
+    border: true
+    left: "CFA-Reports"
+    right: 
+      - icon: linkedin
+        href: linkedin.com/in/eduardo-ramirez-lds
+
+  navbar:
+    background: primary
+    search: true   
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "Test screen 1"
+        file: testscreen1.qmd
+      - text: "Test screen 2"
+        file: testscreen2.qmd
+      
+format:  
+  html:
+    theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
+      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
+      dark: darkly
+      #light: cosmo
+      #dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    toc: true
+    width: full
