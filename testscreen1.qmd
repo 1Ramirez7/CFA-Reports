@@ -10,6 +10,7 @@ format:  # remove this if table for 4 wash options is remove
 
 
 
+
 ::: {.column-screen}
 
 <iframe src="https://www.gurufocus.com/term/roa/SMID" height="1000" width="100%" title="Iframe Example"></iframe>
