@@ -9,8 +9,5 @@ format:
 
 
 
-::: {.column-screen}
-
 <iframe src="https://www.w3schools.com/" height="1000" width="100%" title="Iframe Example"></iframe>
 
-:::
